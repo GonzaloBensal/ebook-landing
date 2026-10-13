@@ -1,20 +1,27 @@
-Cómo instalar y deployar la web
-1. Crear proyecto
-bash
+# Guía rápida para levantar el proyecto en local
+
+1. Crear el proyecto Next.js
 npx create-next-app@latest ebook-landing
-2. Instalar dependencias
-bash
+
+2. Entrar a la carpeta del proyecto
+cd ebook-landing
+
+3. Instalar dependencias necesarias (Evita errores de versiones y de TypeScript)
 npm install framer-motion lucide-react
-npm install -D tailwindcss@3.4.17 postcss autoprefixer
-3. Configurar Tailwind
-bash
+npm install -D tailwindcss@3.4.17 postcss autoprefixer typescript @types/react @types/node
+
+4. Generar los archivos de configuración de estilos
 npx tailwindcss init -p
-4. Reemplazar archivos
-app/page.js
-app/layout.js
-app/globals.css
-tailwind.config.js
-5. Ejecutar
-bash
+
+5. Reemplazar el código de estos archivos con el contenido del chat:
+- app/page.tsx (Contenido de la landing)
+- app/layout.tsx (Estructura base)
+- app/globals.css (Estilos globales)
+- tailwind.config.js (Configuración de Tailwind)
+- next.config.ts (Configuración mínima de Next)
+
+6. Ejecutar el proyecto
 npm run dev
 
+7. Ver en el navegador
+http://localhost:3000
