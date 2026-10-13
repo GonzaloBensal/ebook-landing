@@ -5,7 +5,7 @@ npx create-next-app@latest ebook-landing
 2. Instalar dependencias
 bash
 npm install framer-motion lucide-react
-npm install -D tailwindcss postcss autoprefixer
+npm install -D tailwindcss@3.4.17 postcss autoprefixer
 3. Configurar Tailwind
 bash
 npx tailwindcss init -p
