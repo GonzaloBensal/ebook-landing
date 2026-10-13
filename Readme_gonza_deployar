@@ -1,0 +1,20 @@
+Cómo instalar y deployar la web
+1. Crear proyecto
+bash
+npx create-next-app@latest ebook-landing
+2. Instalar dependencias
+bash
+npm install framer-motion lucide-react
+npm install -D tailwindcss postcss autoprefixer
+3. Configurar Tailwind
+bash
+npx tailwindcss init -p
+4. Reemplazar archivos
+app/page.js
+app/layout.js
+app/globals.css
+tailwind.config.js
+5. Ejecutar
+bash
+npm run dev
+
