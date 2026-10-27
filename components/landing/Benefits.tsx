@@ -24,7 +24,7 @@ export default function Benefits() {
         <motion.div
           initial={{ opacity: 0, y: 25 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: false }}
           className="text-center max-w-3xl mx-auto mb-14"
         >
           <h2 className="text-4xl md:text-5xl font-black mb-4">
@@ -41,7 +41,7 @@ export default function Benefits() {
               key={item.title}
               initial={{ opacity: 0, y: 25 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: false }}
               transition={{ delay: i * 0.1 }}
               className="bg-white/5 border border-white/10 rounded-3xl p-8 backdrop-blur-xl"
             >

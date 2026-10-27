@@ -17,7 +17,8 @@ export default function Contents() {
         <motion.div
           initial={{ opacity: 0, x: -25 }}
           whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: false }}
+          transition={{ duration: 0.5 }}
           className="bg-white/5 border border-white/10 rounded-[32px] p-8 md:p-10 backdrop-blur-xl"
         >
           <p className="text-cyan-300 font-semibold mb-3">¿Qué incluye?</p>
@@ -40,17 +41,20 @@ export default function Contents() {
         <motion.div
           initial={{ opacity: 0, x: 25 }}
           whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: false }}
+          transition={{ duration: 0.5 }}
           className="bg-white/5 border border-white/10 rounded-[32px] p-8 md:p-10 backdrop-blur-xl min-h-[300px] flex items-center justify-center text-center"
         >
           <div>
             <p className="text-sm uppercase tracking-[0.3em] text-slate-400 mb-3">
-              Mockup / visual
+              Clientes satisfechos
             </p>
-            <h3 className="text-3xl font-bold mb-3">Tu ebook acá</h3>
-            <p className="text-slate-400">
-              Después acá podemos poner imagen real, mockup o preview.
-            </p>
+            <h4 className="text-2xl font-bold mb-3">Vendé sin límites, sin vueltas.</h4>
+            <img
+              src="/images/Ebook_premium_cover.png"
+              alt="Portada del Ebook Premium"
+              className="w-full max-w-sm mx-auto rounded-xl"
+            />
           </div>
         </motion.div>
       </div>

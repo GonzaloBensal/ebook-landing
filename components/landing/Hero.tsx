@@ -63,15 +63,15 @@ export default function Hero() {
             <div className="aspect-[4/5] rounded-[24px] bg-gradient-to-br from-cyan-400 via-sky-500 to-violet-600 p-[1px]">
               <div className="w-full h-full rounded-[24px] bg-slate-950 flex flex-col items-center justify-center text-center p-8">
                 <p className="uppercase tracking-[0.3em] text-xs text-slate-400 mb-3">
-                  Nombre de tu ebook
+                  Vendé sin vueltas
                 </p>
 
                 <h3 className="text-3xl md:text-4xl font-extrabold mb-4">
-                  Tu método para lograr resultados reales
+                  Lográ resultados reales
                 </h3>
 
                 <p className="text-slate-400 mb-8">
-                  Una guía práctica, moderna y orientada a la acción.
+                  Una guía práctica, moderna y orientada a la acción. <br /> Resultados en pocas semanas.
                 </p>
 
                 <div className="bg-white/5 border border-white/10 rounded-2xl px-6 py-4 w-full max-w-xs">

@@ -24,7 +24,7 @@ export default function Testimonials() {
         <motion.div
           initial={{ opacity: 0, y: 25 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: false }}
           className="text-center max-w-3xl mx-auto mb-14"
         >
           <h2 className="text-4xl md:text-5xl font-black mb-4">

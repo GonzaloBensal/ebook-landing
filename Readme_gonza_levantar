@@ -1,4 +1,4 @@
-# Guía rápida para levantar el proyecto en local
+# Guía rápida para crear un proyecto en local
 
 1. Crear el proyecto Next.js
 npx create-next-app@latest ebook-landing
