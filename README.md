@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 ### Online:
-Visit ebook-landing-2v6nnlpi1-gonzalo-bensal.vercel.app
+Visit [ebook-landing-2v6nnlpi1-gonzalo-bensal.vercel.app]ebook-landing-2v6nnlpi1-gonzalo-bensal.vercel.app
 
 
 ### Locally:
