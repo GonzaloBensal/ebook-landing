@@ -1,7 +1,11 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
+### Online:
+Visit ebook-landing-2v6nnlpi1-gonzalo-bensal.vercel.app
 
+
+### Locally:
 First, run the development server:
 
 ```bash
